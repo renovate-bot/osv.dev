@@ -25,7 +25,7 @@ COPY ./ /src/
 RUN go build -o debian ./cmd/debian/
 
 
-FROM gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine@sha256:cdac858d976cb0e6bfdc3288fee5a0a7bf6348a009089be130b2009e28463c52
+FROM gcr.io/google.com/cloudsdktool/google-cloud-cli:alpine@sha256:dd473cf67a9243e7d26512e68b9a518d28e14c0f9fc8f9f779bdb38a2a84ac89
 
 WORKDIR /root/
 COPY --from=GO_BUILD /src/debian ./
