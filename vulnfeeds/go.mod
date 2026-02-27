@@ -7,18 +7,18 @@ require (
 	cloud.google.com/go/storage v1.60.0
 	github.com/aquasecurity/go-pep440-version v0.0.1
 	github.com/atombender/go-jsonschema v0.22.0
-	github.com/charmbracelet/lipgloss v1.1.0
+	github.com/charmbracelet/lipgloss/v2 v2.0.0
 	github.com/gkampitakis/go-snaps v0.5.19
 	github.com/go-git/go-git/v5 v5.16.5
 	github.com/google/go-cmp v0.7.0
-	github.com/google/osv-scanner v1.9.2
+	github.com/google/osv-scanner/v2 v2.3.3
 	github.com/knqyf263/go-cpe v0.0.0-20230627041855-cb0794d06872
 	github.com/ossf/osv-schema/bindings/go v0.0.0-20260129002236-09a17f85b44a
 	github.com/sethvargo/go-retry v0.3.0
 	google.golang.org/api v0.268.0
 	google.golang.org/protobuf v1.36.11
 	gopkg.in/dnaeon/go-vcr.v4 v4.0.6
-	gopkg.in/yaml.v2 v2.4.0
+	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
