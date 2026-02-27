@@ -8,7 +8,7 @@ require (
 	cloud.google.com/go/pubsub/v2 v2.4.0
 	cloud.google.com/go/storage v1.60.0
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace v1.31.0
-	github.com/charmbracelet/lipgloss v1.1.0
+	github.com/charmbracelet/lipgloss/v2 v2.0.0
 	github.com/go-git/go-git/v6 v6.0.0-20260223163356-097ea99c34a7
 	github.com/google/go-cmp v0.7.0
 	github.com/hashicorp/go-retryablehttp v0.7.8
