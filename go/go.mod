@@ -5,12 +5,12 @@ go 1.26.4
 replace osv.dev/bindings/go => ../bindings/go
 
 require (
-	charm.land/lipgloss/v2 v2.0.3
+	charm.land/lipgloss/v2 v2.0.4
 	cloud.google.com/go/datastore v1.24.0
 	cloud.google.com/go/monitoring v1.29.0
 	cloud.google.com/go/pubsub/v2 v2.6.0
-	cloud.google.com/go/storage v1.62.2
-	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace v1.32.0
+	cloud.google.com/go/storage v1.62.3
+	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace v1.33.0
 	github.com/dgraph-io/ristretto/v2 v2.4.0
 	github.com/dustin/go-humanize v1.0.1
 	github.com/go-git/go-git/v6 v6.0.0-alpha.4
@@ -27,13 +27,13 @@ require (
 	go.opentelemetry.io/otel v1.44.0
 	go.opentelemetry.io/otel/sdk v1.44.0
 	go.opentelemetry.io/otel/trace v1.44.0
-	golang.org/x/sync v0.20.0
-	google.golang.org/api v0.283.0
+	golang.org/x/sync v0.21.0
+	google.golang.org/api v0.286.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20260526163538-3dc84a4a5aaa
 	google.golang.org/grpc v1.81.1
 	google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af
 	gopkg.in/dnaeon/go-vcr.v4 v4.0.6
-	k8s.io/apimachinery v0.36.1
+	k8s.io/apimachinery v0.36.2
 	osv.dev/bindings/go v0.0.0-20260527044221-c1c72c1b0158
 )
 
